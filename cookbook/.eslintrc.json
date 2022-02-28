@@ -5,11 +5,7 @@
         "es2021": true,
         "node": true
     },
-    "extends": [
-        "eslint:recommended",
-        "standard",
-        "standard-react"
-    ],
+    "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": "latest"
     },
