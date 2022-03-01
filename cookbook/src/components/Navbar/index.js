@@ -22,10 +22,10 @@ const Navbar = () => {
           <NavLink to="/categories" activeStyle>
             Categories
           </NavLink>
-          <NavLink to="/shop" activeStyle>
-            Shop
+          <NavLink to="/about" activeStyle>
+            About
           </NavLink>
-          <NavLink to="/sign-up" activeStyle>
+          <NavLink to="/register" activeStyle>
             Sign Up
           </NavLink>
           <NavBtnLink to="/login" activeStyle>
