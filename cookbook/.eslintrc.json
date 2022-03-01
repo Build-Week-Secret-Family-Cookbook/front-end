@@ -6,13 +6,12 @@
         "node": true
     },
     "extends": [
-        "eslint:recommended",
-        "standard",
-        "standard-react"
+        "eslint:recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
     "rules": {
-    }
+        "no-unused-vars": "warn"
+}
 }
