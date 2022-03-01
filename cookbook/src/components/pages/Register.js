@@ -35,7 +35,6 @@ const Register = () => {
 
   const onChange = e => {
     //invoke validate(e.target.name, e.target.value)
-    console.log(formValues)
     setFormValues({
       ...formValues,
       [e.target.name]: e.target.value
@@ -62,16 +61,21 @@ return (
         type='text'
         placeholder='Username...'
         onChange={onChange}
+        required
       />
       <input
         name='password'
         type='text'
         placeholder='Password...'
         onChange={onChange}
+        required
       />
     </div>
-    <div className='submit-btn'>
-      <button className='submit'>Sign Up</button>
+    <div className='submit'>
+      <button className='submit-btn'>Sign Up</button>
+      <p>
+        Already have an account? <a href='/login'>Login</a>
+      </p>
     </div>
   </form>
 )
