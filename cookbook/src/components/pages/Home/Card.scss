@@ -25,6 +25,7 @@ $radius: 0.2rem;
     justify-content: space-between;
     cursor: pointer;
     transition: transform 200ms ease-in;
+    border: 2px solid $clr-primary;
   
     &_Img {
       height: 12rem;
