@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.h_Wrapper {
+    background: #ffffff;
+    height: 105vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.h_Title h1{
+    font-size: 50px;
+}
